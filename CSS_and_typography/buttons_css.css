@@ -1,0 +1,20 @@
+button.another_button {
+    cursor: pointer;
+    outline: none;
+    background: grey;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+button:hover{
+    background: blue;
+}
+
+button.round_button{
+    background: red;
+    border-radius: 40px;
+}

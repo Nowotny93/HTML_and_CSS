@@ -1,0 +1,32 @@
+html{
+    background: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    font-family: "Helvetica", sans-serif;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+img{
+    max-width: 250px;
+}
+
+main, aside{
+    display: inline-block;
+    vertical-align: top;
+}
+
+main{
+    padding-left: 50px;
+    width: 50%
+}
+
+aside{
+    padding-right: 150px;
+}
+
+

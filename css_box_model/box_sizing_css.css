@@ -1,0 +1,28 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    width: 250px;
+    height: 250px;
+    border: dashed;
+    border-color: darkgrey;
+    text-align: center;
+}
+
+p{
+    width: 100%;
+    padding: 20px;
+    border: solid;
+    border-color: blue;
+    border-width: thick;
+    text-align: center;
+}
+

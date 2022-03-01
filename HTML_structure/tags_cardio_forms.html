@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Customer details</legend>
+                <div>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" value="John" autofocus>
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" value="Devils">
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="male" value="Gender">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="female" value="Gender">
+                    <br>
+                    <br>
+                    <label for="email">Preferred contact method: Email</label>
+                    <input type="radio" id="email" name="email">
+                    <label for="phone">Phone</label>
+                    <input type="radio" id="phone" name="phone">
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" value="you@gmail.com">
+                    <br>
+                    <br>
+                    <label for="phone">Phone</label>
+                    <input type="email" id="phone" name="phone" value="+359898455657">
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <label for="towns">Town</label>
+                    <select id="towns" name="towns">
+                        <option value="Varna">Varna</option>
+                        <option value="Plovdiv">Plovdiv</option>
+                        <option value="Sofia">Sofia</option>
+                        <option value="Burgas">Burgas</option>
+                    </select>
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" min="18" max="70">
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <label for="pl">Programming language</label>
+                    <select id="pl" name="pl">
+                        <option value="Python">Python</option>
+                        <option value="JS">JS</option>
+                        <option value="Java">Java</option>
+                        <option value="C#">C#</option>
+                    </select>
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <textarea rows="5" cols="20">More info...</textarea>
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <input type="checkbox" id="TC" name="TC" checked>
+                   <label for="TC">I agree Terms and Conditions</label>
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <input type="submit" value="Send">
+                </div>
+        </fieldset>
+    </form>
+</body>
+</html>

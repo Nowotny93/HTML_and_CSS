@@ -1,0 +1,98 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    background: rgb(238, 238, 238);
+    padding: 10px 100px;
+}
+
+
+.heading1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.heading1, nav.first, li{
+    display: inline-block;
+}
+
+li{
+    padding: 15px;
+}
+
+nav, img {
+    float: right;
+}
+
+blockquote{
+    font-style: italic;
+    border-left: 3px solid darkgrey;
+    padding-left: 20px;
+    float: right;
+    width: 40%;
+}
+
+.p_in_blockquote{
+    text-align: right;
+    font-style: italic;
+}
+
+h1{
+    font-family: "Georgia", sans-serif;
+}
+
+.lastp{
+    float: left;
+    width: 50%;
+}
+
+.last_img{
+    margin-right: 20px;
+    float:left
+}
+
+img{
+    margin-left: 10px;
+}
+
+.last_header{
+    width: 30%;
+}
+.lastp1{
+    float: right;
+}
+
+.last_img, img{
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.second_nav{
+    display: block;
+}
+
+aside{
+    float: right;
+}
+
+main, aside{
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    width: 80%;
+    margin-right: 50px;
+    float: left;
+}
+
+aside{
+    float: right;
+}

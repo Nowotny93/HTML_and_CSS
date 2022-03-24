@@ -1,0 +1,156 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+nav {
+    display: flex;
+    padding: 6px;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+ul {
+    display: flex;
+}
+
+ul, li {
+    list-style: none;
+    margin: 6px;
+
+    font-family: "Robotto", sans-serif;
+}
+
+img {
+    padding: 10px;
+    margin-left: 40px;
+}
+
+button {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 20px;
+    margin-right: -20px;
+    background: blueviolet;
+    color: white;
+    padding: 10px;
+    bottom: 10px;
+    font-weight: bold;
+    border: none
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+p:nth-child(4), p:nth-child(5){
+    font-style: italic;
+}
+
+
+.top {
+    display: block;
+    padding: 21px;
+    position: relative;
+    top: 8px;
+    border: 1px solid lightgray;
+    color: darkslategray;
+
+}
+
+.diplomas{
+    float: right;
+    position: relative;
+    top: -40px;
+    right: 20px;
+}
+
+.middle {
+    display: block;
+    padding: 73px;
+    position: relative;
+    top: 8px;
+    border: 1px solid lightgray;
+    background: #150f2b;
+    color: whitesmoke;
+}
+
+.udostoverenie{
+    float: right;
+    position: relative;
+    top: -70px;
+    width: 26%;
+
+}
+
+.bottom{
+    display: block;
+    padding: 43px;
+    position: relative;
+    top: 6px;
+    border: 1px solid lightgray;
+    color: darkslategray;
+}
+
+.career{
+    float: left;
+    position: relative;
+    top: -57px;
+    width: 20%;
+    right: 20px;
+}
+
+.last_heading{
+    position: relative;
+    left: 290px;
+}
+
+.ending{
+    display: flex;
+    padding-left: 30px;
+    border: 1px solid lightgray;
+    position: relative;
+    top: 5px;
+    background: darkslategrey;
+}
+
+.contents{
+    display: contents;
+}
+
+.creative, .obucheniq, .partners{
+    padding: 30px;
+    color:whitesmoke;
+}
+
+h3{
+    color: blueviolet;
+}
+
+.careers_button{
+    background: white;
+    color: blueviolet;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.icons{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    position: relative;
+    top:48px;
+    border-radius: 12px;
+}
+
+.special_p {
+    color: whitesmoke;
+    position: relative;
+    top: 120px;
+    right: 350px;
+
+}

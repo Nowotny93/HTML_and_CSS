@@ -1,0 +1,181 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec_nav{
+    display: flex;
+    justify-content: space-between;
+    background: #cccccc;
+}
+
+.navigation{
+    padding-right: 120px;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-family: "Georgia", sans-serif;
+}
+
+.logo{
+    padding-top: 15px;
+    padding-left: 80px;
+}
+
+.sec_first_layer{
+    background: orange;
+    color: white;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    font-family: "Georgia", sans-serif;
+}
+
+.content{
+    display: flex;
+    text-align: center;
+    padding-left: 390px;
+    padding-right: 390px;
+    padding-bottom: 30px;
+}
+
+.sec_second_layer{
+    display: flex;
+    padding: 90px;
+}
+
+.first_person_photo img{
+    width: 120px;
+    border-radius: 70px;
+    border: 6px solid grey;
+}
+
+.first_person_content {
+    padding-left: 30px;
+    color: #615757;
+}
+
+.second_person_photo img{
+    width: 120px;
+    border-radius: 70px;
+    border: 6px solid grey;
+}
+
+.second_person_photo{
+    padding-left: 30px;
+}
+
+.second_person_content {
+    padding-left: 30px;
+    color: #615757;
+}
+
+.prof{
+    font-style: italic;
+    color: grey;
+    position: relative;
+    bottom: 5px;
+}
+
+.sec_third_layer {
+    display: flex;
+    padding: 90px;
+    justify-content: space-between;
+}
+
+.third_person_photo img, .fourth_person_photo img, .fifth_person_photo img, .sixth_person_photo img {
+    width: 120px;
+    border-radius: 70px;
+    border: 6px solid grey;
+}
+
+.third_person_column, .fourth_person_column, .fifth_person_column, .sixth_person_column {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+}
+
+h4{
+    color: #615757;
+}
+
+.sec_fourth_layer {
+    background: deepskyblue;
+    color: white;
+}
+
+.form_layer{
+    text-align: center;
+    background: deepskyblue;
+}
+
+.name, .email, .telephone, .btn {
+    margin: 10px;
+    padding: 10px;
+}
+
+.contacts, .btn {
+    display: inline-block;
+}
+
+.name, .email, .telephone {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: white;
+}
+
+button {
+    padding: 10px;
+    border-radius: 25px;
+    background: darkorange;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 2px 2px #888888;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background: #615757;
+}
+
+
+.footer_nav_content {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    color: #cccccc;
+    font-family: "Georgia", sans-serif;
+}
+
+.first_footer_nav, .second_footer_nav, .third_footer_nav, .fourth_footer_nav {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+h5{
+    color: white;
+    font-family: "Georgia", sans-serif;
+}
+
+.social_networks {
+    max-width: 30px;
+    padding: 5px;
+}
